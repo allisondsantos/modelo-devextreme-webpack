@@ -1,0 +1,5 @@
+{
+    "hooks":{
+        "pre-rush": "npm run lint"
+    }
+}

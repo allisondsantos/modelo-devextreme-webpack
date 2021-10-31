@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "rootDir": "src",
+    "baseUrl": "src",
+    "paths": {
+      "@/*": [
+        "*"
+      ],
+      "@pages/*": [
+        "presentation/pages/*"
+      ],
+      "@components/*": [
+        "presentation/components/*"
+      ],
+      "@domainUC/*": [
+        "domain/usecases/*"
+      ],
+      "@models/*": [
+        "domain/models/*"
+      ],
+      "@dataUC/*": [
+        "data/usecases/*"
+      ],
+    },
+    "allowJs": true,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/__tests__",
+    "**/*.test.ts",
+    "**/*.spec.ts"
+  ],  
+}

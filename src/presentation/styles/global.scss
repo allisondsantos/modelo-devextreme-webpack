@@ -1,0 +1,14 @@
+@import '../styles/theme.scss';
+@import 'devextreme/dist/css/dx.material.teal.light.compact.css';
+
+* {
+  font-family: 'Roboto', 'RobotoFallback', 'Noto Kufi Arabic', 'Helvetica', 'Arial', sans-serif;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
+}
